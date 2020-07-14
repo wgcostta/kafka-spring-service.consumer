@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: sistema-financeiro
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/sistema-financeiro
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
